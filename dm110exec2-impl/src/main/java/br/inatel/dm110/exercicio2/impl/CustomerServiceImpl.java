@@ -10,7 +10,7 @@ import br.inatel.dm110.exercicio2.interfaces.CustomerRemote;
 
 @RequestScoped
 public class CustomerServiceImpl implements CustomerService {
-	@EJB(lookup="java:app/dm110-ejb-0.1-SNAPSHOT/CustomerBean!br.inatel.dm110.exercicio2.interfaces.CustomerRemote")
+	@EJB(lookup="java:app/dm110exec2-ejb-0.1-SNAPSHOT/CustomerBean!br.inatel.dm110.exercicio2.interfaces.CustomerRemote")
 	private CustomerRemote customerBean;
 
 	@Override
